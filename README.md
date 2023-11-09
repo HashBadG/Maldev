@@ -13,9 +13,9 @@
   <p align="center">
     This project aims to discover the world of Malware Development.
     <br />
-    <a href="https://github.com/HashBadG/maldev/issues">Report Bug</a>
+    <a href="https://github.com/HashBadG/Maldev/issues">Report Bug</a>
     ·
-    <a href="https://github.com/HashBadG/maldev/issues">Request Feature</a>
+    <a href="https://github.com/HashBadG/Maldev/issues">Request Feature</a>
   </p>
 </div>
 
@@ -44,7 +44,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-TODO
+This is a personal project designed to immerse me in the world of malware development. This will enable me to gain a better understanding of how malware works, and to learn more about operating systems.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -53,20 +53,39 @@ TODO
 <!-- GETTING STARTED -->
 ## Getting Started
 
-Blank
+In the various folders present in this directory, you'll discover some C code enabling you to perform malicious actions. Each part will be documented, enabling you to compile and use the code.
 
 ### Prerequisites
 
-Blank
+The prerequisites are as follows:
+- A Windows 10 virtual machine.
+- A compiler such as CL.
+- Windows Defender disabled on the machine to avoid being flagged.
 
 ### Installation
 
-Blank
+To install, simply clone the directory and use make to compile the code. (see the Makefile for more details). Here is the detailed steps :
+1. Open the `x64 Native Tools Command Prompt for VS 2022` installed with [VS Tools](https://aka.ms/vs/17/release/vs_BuildTools.exe)
+
+2. Clone the repository and navigate to it
+```cmd
+cd Maldev
+```
+
+3. Use the make command to compile the malicious code:
+```bash
+make malicious
+```
+
+4. You can clean the code using the `clean` command with Make:
+```
+make clean
+```
 
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Blank
+All the details will be provided in a different documentation with this form `DOCS_<code>.md`
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -83,17 +102,17 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 HashBadG - [@H4shB](https://twitter.com/H4shB)
 
-Project Link: [https://github.com/HashBadG/maldev](https://github.com/HashBadG/maldev)
+Project Link: [https://github.com/HashBadG/Maldev](https://github.com/HashBadG/Maldev)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-[contributors-shield]: https://img.shields.io/github/contributors/HashBadG/maldev.svg?style=for-the-badge
-[contributors-url]: https://github.com/HashBadG/maldev/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/HashBadG/maldev.svg?style=for-the-badge
-[forks-url]: https://github.com/HashBadG/maldev/network/members
-[stars-shield]: https://img.shields.io/github/stars/HashBadG/maldev.svg?style=for-the-badge
-[stars-url]: https://github.com/HashBadG/maldev/stargazers
-[issues-shield]: https://img.shields.io/github/issues/HashBadG/maldev.svg?style=for-the-badge
-[issues-url]: https://github.com/HashBadG/maldev/issues
-[license-shield]: https://img.shields.io/github/license/HashBadG/maldev.svg?style=for-the-badge
-[license-url]: https://github.com/HashBadG/maldev/blob/master/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/HashBadG/Maldev.svg?style=for-the-badge
+[contributors-url]: https://github.com/HashBadG/Maldev/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/HashBadG/Maldev.svg?style=for-the-badge
+[forks-url]: https://github.com/HashBadG/Maldev/network/members
+[stars-shield]: https://img.shields.io/github/stars/HashBadG/Maldev.svg?style=for-the-badge
+[stars-url]: https://github.com/HashBadG/Maldev/stargazers
+[issues-shield]: https://img.shields.io/github/issues/HashBadG/Maldev.svg?style=for-the-badge
+[issues-url]: https://github.com/HashBadG/Maldev/issues
+[license-shield]: https://img.shields.io/github/license/HashBadG/Maldev.svg?style=for-the-badge
+[license-url]: https://github.com/HashBadG/Maldev/blob/master/LICENSE.txt
