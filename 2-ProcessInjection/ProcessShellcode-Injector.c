@@ -1,6 +1,3 @@
-Sure! Here's the commented version of the code block:
-
-```c
 #include <stdio.h> // Include the standard input/output library
 #include <string.h> // Include the string manipulation library
 #include <windows.h> // Include the Windows API library
